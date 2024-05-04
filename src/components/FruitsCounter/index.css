@@ -1,0 +1,63 @@
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #ffff;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+}
+
+.title {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-container {
+    flex-direction: row;
+  }
+}
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.fruit-img {
+  width: 140px;
+  height: 140px;
+}
+
+.eat-fruit-btn {
+  color: #ffffff;
+  border-width: 0px;
+  background-color: #007bff;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-size: 12px;
+  width: 90px;
+  height: 30px;
+  margin-top: 14px;
+}
